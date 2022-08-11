@@ -208,7 +208,7 @@ function mostrarAlert2(e) {
     text: "Gracias por elegirnos",
   }).then((value) => {
     if (value) {
-      window.location.href = "/index.html";
+      window.location.href = "./index.html";
     }
   });
 }
